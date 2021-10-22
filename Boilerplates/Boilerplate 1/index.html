@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html b:defaultwidgetversion="2" 
+  b:layoutsVersion="3" 
+  b:responsive="true" 
+  b:templateVersion="1.0.0" 
+  expr:class="data:blog.languageDirection" 
+  expr:dir="data:blog.languageDirection" 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:b="http://www.google.com/2005/gml/b" 
+  xmlns:data="http://www.google.com/2005/gml/data" 
+  xmlns:expr="http://www.google.com/2005/gml/expr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Blog Title Name</title>
+  <b:skin>
+    <![CDATA[
+      /* ------------------
+      Template Name: 
+      Template Name Template URL: Template-URL
+      Author: Author
+      ------------------ */
+      .container {
+        width: 100%;
+      }
+    ]]>
+  </b:skin>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header-area">
+      <b:section id="header" class="header" showaddelement="yes" name="HEADER" maxwidgets="3" />
+    </header>
+    <main class="main">
+      <b:section id="main" class="main" showaddelement="yes" name="MAIN">
+        <b:widget id="Blog1" locked="true" title="Blog Posts" type="Blog" />
+      </b:section>
+    </main>
+    <aside class="sidebar">
+      <b:section id="sidebar" class="sidebar" showaddelement="yes" name="SIDEBAR" maxwidgets="3" />
+    </aside>
+    <footer class="footer">
+      <b:section id="footer" class="footer" showaddelement="yes" name="FOOTER" maxwidgets="3" />
+    </footer>
+  </div>
+</body>
+
+</html>
